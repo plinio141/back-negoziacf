@@ -1,0 +1,23 @@
+{
+  "name": "back-negoziacf",
+  "version": "1.0.0",
+  "description": "Prueba negoziacf",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "restart": "nodemon server.js"
+  },
+  "author": "Plinio Grijalba",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0"
+  }
+}
